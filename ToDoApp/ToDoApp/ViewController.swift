@@ -9,6 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBAction func addTaskButton(_ sender: UITabBarItem) {
+        print ("lol")
+    }
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802F350F2630270E0018E24C /* TaskComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F350E2630270E0018E24C /* TaskComposite.swift */; };
+		802F351326302B2E0018E24C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F351226302B2E0018E24C /* TableViewController.swift */; };
 		8070B2CD262F63EE008A8A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070B2CC262F63EE008A8A35 /* AppDelegate.swift */; };
 		8070B2CF262F63EE008A8A35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070B2CE262F63EE008A8A35 /* SceneDelegate.swift */; };
 		8070B2D1262F63EE008A8A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070B2D0262F63EE008A8A35 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		802F350E2630270E0018E24C /* TaskComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskComposite.swift; sourceTree = "<group>"; };
+		802F351226302B2E0018E24C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		8070B2C9262F63EE008A8A35 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8070B2CC262F63EE008A8A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8070B2CE262F63EE008A8A35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				8070B2D5262F63F0008A8A35 /* Assets.xcassets */,
 				8070B2D7262F63F0008A8A35 /* LaunchScreen.storyboard */,
 				8070B2DA262F63F0008A8A35 /* Info.plist */,
+				802F350E2630270E0018E24C /* TaskComposite.swift */,
+				802F351226302B2E0018E24C /* TableViewController.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802F350F2630270E0018E24C /* TaskComposite.swift in Sources */,
 				8070B2D1262F63EE008A8A35 /* ViewController.swift in Sources */,
 				8070B2CD262F63EE008A8A35 /* AppDelegate.swift in Sources */,
+				802F351326302B2E0018E24C /* TableViewController.swift in Sources */,
 				8070B2CF262F63EE008A8A35 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
